@@ -43,7 +43,7 @@ export default function CustomCursor() {
         width: '10px',
         height: '10px',
         borderRadius: '50%',
-        background: '#0a0a0a',
+        background: '#ffffff',
         pointerEvents: 'none',
         zIndex: 9999,
         transform: 'translate(-100px, -100px)',
