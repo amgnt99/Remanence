@@ -1,0 +1,36 @@
+/* PP Editorial New Ultra Light — placer les fichiers dans /public/fonts/ */
+@font-face {
+  font-family: 'PP Editorial New';
+  src: url('/fonts/PPEditorialNew-Ultralight.woff2') format('woff2'),
+       url('/fonts/PPEditorialNew-Ultralight.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: none !important;
+}
+
+html, body {
+  font-family: 'Iowan Old Style', 'Iowan Old Style Roman', Georgia, 'Times New Roman', serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0a0a0a;
+  color: #f5f4f0;
+}
+
+/* Black weight */
+strong, b, h1, h2, h3 {
+  font-weight: 900;
+}
+
+a { color: inherit; }
+ul, ol { list-style: none; }
+
+/* Carousel — cache la scrollbar */
+.carousel::-webkit-scrollbar { display: none; }
